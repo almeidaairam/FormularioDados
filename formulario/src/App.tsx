@@ -26,9 +26,9 @@ const Form: React.FC = () => {
 
   return (
     <div >
-      <h2>Formulário do Cliente</h2>
       <form onSubmit={handleSubmit}>
         <div>
+        <h2>Formulário do Cliente</h2>
           <label>Nome:</label>
           <input
             type="text"
@@ -78,7 +78,7 @@ const Form: React.FC = () => {
             required
           />
         </div>
-        <button type="submit">Enviar</button>
+        <button id="btt" type="submit">Enviar</button>
       </form>
     </div>
   );
